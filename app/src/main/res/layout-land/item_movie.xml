@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ivPoster"
+        android:layout_width="120dp"
+        android:layout_height="147dp"
+        android:layout_marginTop="0dp"
+        tools:layout_alignParentStart="true"
+        tools:layout_marginStart="0dp"
+        tools:srcCompat="@tools:sample/avatars[0]" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="280dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="7dp"
+        android:layout_toEndOf="@+id/ivPoster"
+        android:textSize="24sp"
+        tools:layout_alignParentStart="true"
+        tools:layout_alignParentTop="true"
+        tools:layout_marginStart="127dp"
+        tools:text="Gemini Man" />
+
+    <TextView
+        android:id="@+id/tvOverview"
+        android:layout_width="288dp"
+        android:layout_height="72dp"
+        android:layout_below="@+id/tvTitle"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="3dp"
+        android:layout_toEndOf="@+id/ivPoster"
+        tools:layout_marginStart="5dp"
+        tools:layout_toEndOf="@+id/ivPoster"
+        tools:text="Henry Brogen, an aging assassin tries to get out of the business but finds himself in the ultimate battle: fighting his own clone who is 25 years younger than him and at the peak of his abilities." />
+</RelativeLayout>
