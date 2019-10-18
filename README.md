@@ -33,6 +33,8 @@ Landscape was not working in my app and others like youtube the above^^^ fixed i
 
 Also emulator was not connecting to the internet: adding a DNS server 8.8.8.8 along with restarting or redownloading emulator fixed this.
 
+Wasn't able to use GlideApp for (.placeholder) I think android studio couldnt find it in the library. - Instead I used Glide with a RequestOptions that included the placeholder and that worked.
+
 
 
 
